@@ -1,0 +1,54 @@
+﻿HUBS AND AUTHORITIES
+--------------------------------------------------------------------------------
+
+Input network:                          football (C:\Users\HP\Desktop\football)
+Output scores:                          football-HubAuth (C:\Users\HP\Desktop\football-HubAuth)
+No. of dimensions:                      1
+
+
+
+              1      2
+            Hub Author
+         ------ ------
+  1 ARG   0.276  0.007
+  2 AUT   0.169  0.029
+  3 BEL   0.087  0.030
+  4 BGR   0.109  0.000
+  5 BRA   0.210  0.032
+  6 CHE   0.000  0.019
+  7 CHL   0.020  0.000
+  8 CMR   0.180  0.000
+  9 COL   0.050  0.000
+ 10 DEU   0.071  0.310
+ 11 DNK   0.245  0.000
+ 12 ESP   0.000  0.579
+ 13 FRA   0.000  0.163
+ 14 GBR   0.000  0.536
+ 15 GRE   0.000  0.064
+ 16 HRV   0.260  0.000
+ 17 IRN   0.040  0.000
+ 18 ITA   0.104  0.450
+ 19 JAM   0.163  0.000
+ 20 JPN   0.000  0.064
+ 21 KOR   0.018  0.000
+ 22 MAR   0.175  0.000
+ 23 MEX   0.000  0.003
+ 24 NGA   0.210  0.000
+ 25 NLD   0.271  0.080
+ 26 NOR   0.380  0.000
+ 27 PRT   0.000  0.052
+ 28 PRY   0.064  0.000
+ 29 ROM   0.262  0.000
+ 30 SCO   0.170  0.081
+ 31 TUN   0.048  0.008
+ 32 TUR   0.000  0.159
+ 33 USA   0.077  0.014
+ 34 YUG   0.412  0.000
+ 35 ZAF   0.226  0.009
+
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  28 Jul 17 22:48:57
+UCINET 6.634 Copyright (c) 1992-2017 Analytic Technologies
+

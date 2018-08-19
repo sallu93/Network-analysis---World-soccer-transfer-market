@@ -1,0 +1,101 @@
+﻿REGULAR EQUIVALENCE VIA WHITE/REITZ REGE ALGORITHM
+--------------------------------------------------------------------------------
+
+Input dataset:                          football (C:\Users\HP\Desktop\football)
+
+
+REGE similarities (3 iterations)
+
+              1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35
+            ARG AUT BEL BGR BRA CHE CHL CMR COL DEU DNK ESP FRA GBR GRE HRV IRN ITA JAM JPN KOR MAR MEX NGA NLD NOR PRT PRY ROM SCO TUN TUR USA YUG ZAF
+            --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+    1  ARG  100  75  54  58  65  15  20  69  35  56  66  35  36  27  22  67  40  45  64  25  42  62   7  64  76  67  30  63  69  74  50  40  57  83  66
+    2  AUT   75 100  70  70  59  29  40  79  55  47  76  26  35  20  29  70  56  43  72  27  57  69  18  70  74  66  30  60  75  73  73  30  65  78  78
+    3  BEL   54  70 100  60  53  29  44  66  62  68  61  40  45  31  43  66  66  56  43  40  51  64  17  69  74  48  44  44  60  59  83  48  87  48  79
+    4  BGR   58  70  60 100  55   0  41  81  63  16  78   0   0   0   0  87  78  17  64   0  90  87   0  85  56  62   0  51  84  50  73   0  52  66  81
+    5  BRA   65  59  53  55 100  11  22  58  35  64  57  58  44  54  22  63  39  68  45  24  43  58  10  61  71  48  25  41  60  63  48  39  51  57  63
+    6  CHE   15  29  29   0  11 100   0   0   0  35   0  29  47  22  60   0   0  30   0  43   0   0  66   0  31   0  58   0   0  21  35  42  38   0  15
+    7  CHL   20  40  44  41  22   0 100  41  64  10  45   0   0   0   0  45  53   9  24   0  41  47   0  46  24  30   0  25  40  21  44   0  42  31  47
+    8  CMR   69  79  66  81  58   0  41 100  55  24  82   0   0   0   0  81  68  25  77   0  73  82   0  81  62  75   0  63  88  65  71   0  59  86  81
+    9  COL   35  55  62  63  35   0  64  55 100  18  67   0   0   0   0  60  72  15  38   0  47  64   0  71  36  52   0  48  55  30  60   0  54  43  64
+   10  DEU   56  47  68  16  64  35  10  24  18 100  20  82  84  78  59  22  12  86  10  70  11  20  24  25  77  17  71  13  21  71  43  80  59  19  48
+   11  DNK   66  76  61  78  57   0  45  82  67  20 100   0   0   0   0  83  74  21  82   0  61  83   0  83  63  81   0  62  86  67  69   0  57  78  82
+   12  ESP   35  26  40   0  58  29   0   0   0  82   0 100  84  86  47   0   0  88   0  65   0   0  22   0  53   0  61   0   0  51  24  77  33   0  20
+   13  FRA   36  35  45   0  44  47   0   0   0  84   0  84 100  79  59   0   0  78   0  75   0   0  31   0  58   0  77   0   0  52  34  83  44   0  24
+   14  GBR   27  20  31   0  54  22   0   0   0  78   0  86  79 100  40   0   0  78   0  49   0   0  16   0  44   0  47   0   0  44  17  64  26   0  14
+   15  GRE   22  29  43   0  22  60   0   0   0  59   0  47  59  40 100   0   0  44   0  75   0   0  49   0  42   0  80   0   0  45  30  67  42   0  15
+   16  HRV   67  70  66  87  63   0  45  81  60  22  83   0   0   0   0 100  76  22  73   0  70  90   0  88  65  67   0  60  86  59  74   0  61  73  88
+   17  IRN   40  56  66  78  39   0  53  68  72  12  74   0   0   0   0  76 100  12  49   0  69  82   0  78  42  55   0  41  67  34  82   0  54  51  74
+   18  ITA   45  43  56  17  68  30   9  25  15  86  21  88  78  78  44  22  12 100  12  54  12  20  22  24  65  18  53  14  22  57  39  67  51  19  45
+   19  JAM   64  72  43  64  45   0  24  77  38  10  82   0   0   0   0  73  49  12 100   0  46  66   0  62  54  71   0  57  77  71  53   0  38  81  67
+   20  JPN   25  27  40   0  24  43   0   0   0  70   0  65  75  49  75   0   0  54   0 100   0   0  33   0  45   0  88   0   0  44  26  88  37   0  14
+   21  KOR   42  57  51  90  43   0  41  73  47  11  61   0   0   0   0  70  69  12  46   0 100  79   0  70  42  47   0  31  74  35  68   0  41  54  69
+   22  MAR   62  69  64  87  58   0  47  82  64  20  83   0   0   0   0  90  82  20  66   0  79 100   0  90  61  69   0  53  85  54  78   0  57  69  87
+   23  MEX    7  18  17   0  10  66   0   0   0  24   0  22  31  16  49   0   0  22   0  33   0   0 100   0  19   0  39   0   0  15  17  29  21   0   7
+   24  NGA   64  70  69  85  61   0  46  81  71  25  83   0   0   0   0  88  78  24  62   0  70  90   0 100  63  70   0  59  83  54  77   0  59  70  88
+   25  NLD   76  74  74  56  71  31  24  62  36  77  63  53  58  44  42  65  42  65  54  45  42  61  19  63 100  53  50  41  65  82  65  60  68  59  77
+   26  NOR   67  66  48  62  48   0  30  75  52  17  81   0   0   0   0  67  55  18  71   0  47  69   0  70  53 100   0  66  75  59  53   0  43  81  68
+   27  PRT   30  30  44   0  25  58   0   0   0  71   0  61  77  47  80   0   0  53   0  88   0   0  39   0  50   0 100   0   0  50  34  85  45   0  17
+   28  PRY   63  60  44  51  41   0  25  63  48  13  62   0   0   0   0  60  41  14  57   0  31  53   0  59  41  66   0 100  60  46  39   0  36  71  59
+   29  ROM   69  75  60  84  60   0  40  88  55  21  86   0   0   0   0  86  67  22  77   0  74  85   0  83  65  75   0  60 100  63  69   0  58  83  82
+   30  SCO   74  73  59  50  63  21  21  65  30  71  67  51  52  44  45  59  34  57  71  44  35  54  15  54  82  59  50  46  63 100  52  59  55  68  65
+   31  TUN   50  73  83  73  48  35  44  71  60  43  69  24  34  17  30  74  82  39  53  26  68  78  17  77  65  53  34  39  69  52 100  30  76  52  83
+   32  TUR   40  30  48   0  39  42   0   0   0  80   0  77  83  64  67   0   0  67   0  88   0   0  29   0  60   0  85   0   0  59  30 100  44   0  20
+   33  USA   57  65  87  52  51  38  42  59  54  59  57  33  44  26  42  61  54  51  38  37  41  57  21  59  68  43  45  36  58  55  76  44 100  42  76
+   34  YUG   83  78  48  66  57   0  31  86  43  19  78   0   0   0   0  73  51  19  81   0  54  69   0  70  59  81   0  71  83  68  52   0  42 100  67
+   35  ZAF   66  78  79  81  63  15  47  81  64  48  82  20  24  14  15  88  74  45  67  14  69  87   7  88  77  68  17  59  82  65  83  20  76  67 100
+
+
+HIERARCHICAL CLUSTERING OF EQUIVALENCE MATRIX
+
+         C M G F D E I G P J T C C P B N S N J A A Y B U B K I T D C R M H N Z
+         H E B R E S T R R P U H O R R L C O A U R U E S G O R U N M O A R G A
+         E X R A U P A E T N R L L Y A D O R M T G G L A R R N N K R M R V A F
+
+           2 1 1 1 1 1 1 2 2 3     2   2 3 2 1     3   3   2 1 3 1   2 2 1 2 3
+ Level   6 3 4 3 0 2 8 5 7 0 2 7 9 8 5 5 0 6 9 2 1 4 3 3 4 1 7 1 1 8 9 2 6 4 5
+------   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+90.493   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . XXX . .
+90.235   . . . . . . . . . . . . . . . . . . . . . . . . XXX . . . . . XXX . .
+89.272   . . . . . . . . . . . . . . . . . . . . . . . . XXX . . . . . XXXXX .
+88.073   . . . . . . . . . . . . . . . . . . . . . . . . XXX . . . . . XXXXXXX
+87.941   . . . . . . . . . XXX . . . . . . . . . . . . . XXX . . . . . XXXXXXX
+87.784   . . . . . XXX . . XXX . . . . . . . . . . . . . XXX . . . . . XXXXXXX
+87.748   . . . . . XXX . . XXX . . . . . . . . . . . . . XXX . . . XXX XXXXXXX
+87.266   . . . . . XXX . . XXX . . . . . . . . . . . XXX XXX . . . XXX XXXXXXX
+85.865   . . . . . XXX . XXXXX . . . . . . . . . . . XXX XXX . . . XXX XXXXXXX
+84.682   . . . . . XXX . XXXXX . . . . . . . . . . . XXX XXX . . XXXXX XXXXXXX
+84.520   . . . . XXXXX . XXXXX . . . . . . . . . . . XXX XXX . . XXXXX XXXXXXX
+82.853   . . . . XXXXX . XXXXX . . . . . . . . . XXX XXX XXX . . XXXXX XXXXXXX
+82.186   . . . . XXXXX . XXXXX . . . . XXX . . . XXX XXX XXX . . XXXXX XXXXXXX
+82.142   . . . . XXXXX . XXXXX . . . . XXX . . . XXX XXX XXX . . XXXXXXXXXXXXX
+81.627   . . . . XXXXX . XXXXX . . . . XXX . . . XXX XXX XXX XXX XXXXXXXXXXXXX
+80.792   . . . XXXXXXX . XXXXX . . . . XXX . . . XXX XXX XXX XXX XXXXXXXXXXXXX
+79.559   . . XXXXXXXXX . XXXXX . . . . XXX . . . XXX XXX XXX XXX XXXXXXXXXXXXX
+76.719   . . XXXXXXXXX . XXXXX . . . . XXX . . XXXXX XXX XXX XXX XXXXXXXXXXXXX
+76.220   . . XXXXXXXXX . XXXXX . . . . XXX . . XXXXX XXX XXX XXXXXXXXXXXXXXXXX
+74.406   . . XXXXXXXXX . XXXXX . . . . XXX . XXXXXXX XXX XXX XXXXXXXXXXXXXXXXX
+73.863   . . XXXXXXXXX . XXXXX . . . . XXX . XXXXXXX XXX XXXXXXXXXXXXXXXXXXXXX
+73.406   . . XXXXXXXXX . XXXXX . . . . XXX XXXXXXXXX XXX XXXXXXXXXXXXXXXXXXXXX
+72.226   . . XXXXXXXXX XXXXXXX . . . . XXX XXXXXXXXX XXX XXXXXXXXXXXXXXXXXXXXX
+66.867   . . XXXXXXXXX XXXXXXX . . . . XXXXXXXXXXXXX XXX XXXXXXXXXXXXXXXXXXXXX
+66.084   XXX XXXXXXXXX XXXXXXX . . . . XXXXXXXXXXXXX XXX XXXXXXXXXXXXXXXXXXXXX
+64.720   XXX XXXXXXXXX XXXXXXX . . . . XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXX
+63.914   XXX XXXXXXXXX XXXXXXX XXX . . XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXX
+63.264   XXX XXXXXXXXXXXXXXXXX XXX . . XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXX
+62.668   XXX XXXXXXXXXXXXXXXXX XXX . . XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+56.155   XXX XXXXXXXXXXXXXXXXX XXX . XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+52.796   XXX XXXXXXXXXXXXXXXXX XXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+49.422   XXX XXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+34.931   XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+15.195   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+Partition-by-actor matrix saved as dataset RegePart
+Equivalence matrix saved as dataset Rege.
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  28 Jul 17 22:55:19
+UCINET 6.634 Copyright (c) 1992-2017 Analytic Technologies
+
