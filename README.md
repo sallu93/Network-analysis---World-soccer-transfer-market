@@ -18,9 +18,11 @@ Techniques applied:
 
 -> Visualization using NetDraw and Data Matrix
 
--> For a detailed report of the project please view the file "Project report.docx".
 
--> All the other files(Images and text files) in the repository are results of different network analysis techniques applied on the dataset.
+
+For a detailed report of the project please view the file "Project report.docx".
+
+All the other files(Images and text files) in the repository are results of different network analysis techniques applied on the dataset.
 
 
 
