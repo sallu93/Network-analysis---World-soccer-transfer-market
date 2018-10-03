@@ -2,30 +2,29 @@
 
 Analyzed network data of the soccer transfer market of 35 different countries derived from the 22 national teams in the 1998 World Championship in Paris by applying various network analysis techniques to find and explain patterns in the data.
 
-Techniques applied:
+## Techniques applied:
 
--> Centralities
+- Centralities
 
--> Hubs and authorities
+- Hubs and authorities
 
--> Regular equivalence
+- Regular equivalence
 
--> Pearson Correlations
+- Pearson Correlations
 
--> Multidimensional scaling (MDS)
+- Multidimensional scaling (MDS)
 
--> Hierarchical clustering
+- Hierarchical clustering
 
--> Visualization using NetDraw and Data Matrix
-
-
-
-For a detailed report of the project please view the file "Project report.docx".
-
-All the other files(Images and text files) in the repository are results of different network analysis techniques applied on the dataset.
+- Visualization using NetDraw and Data Matrix
 
 
+## Other Info
 
-Software used for analysis: UCINET.
+- For a detailed report of the project, please view the file "Project report.docx".
 
-Source of data: The Colorado Index Of Complex Networks (ICON)
+- All the other files(Images and text files) in the repository are results of different network analysis techniques applied on the dataset.
+
+- Software used for analysis: UCINET.
+
+- Source of data: The Colorado Index Of Complex Networks (ICON).
